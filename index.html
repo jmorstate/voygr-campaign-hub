@@ -84,15 +84,25 @@
         </div>
       </div>
 
+      <!-- Navigation Toggle -->
+      <nav class="flex items-center p-1 bg-slate-100 rounded-xl border border-slate-200">
+        <a href="index.html" class="flex items-center space-x-2 px-3.5 py-1.5 rounded-lg text-xs font-bold transition-all bg-white text-blue-700 shadow-sm border border-slate-200/50">
+          <i data-lucide="messages-square" class="w-3.5 h-3.5"></i>
+          <span>Reddit Discussions</span>
+          <span class="px-1.5 py-0.5 rounded-full text-[10px] font-bold bg-blue-100 text-blue-800 ml-1">43</span>
+        </a>
+        <a href="analytics.html" class="flex items-center space-x-2 px-3.5 py-1.5 rounded-lg text-xs font-semibold transition-all text-slate-600 hover:text-slate-900 hover:bg-white/60">
+          <i data-lucide="line-chart" class="w-3.5 h-3.5 text-indigo-600"></i>
+          <span>Search & AI Visibility</span>
+          <span class="px-1.5 py-0.5 rounded-full text-[10px] font-bold bg-indigo-50 text-indigo-700 border border-indigo-200 ml-1">Live</span>
+        </a>
+      </nav>
+
       <!-- Header Info Badge -->
-      <div class="flex items-center space-x-2 text-xs">
+      <div class="hidden lg:flex items-center space-x-2 text-xs">
         <div class="flex items-center space-x-1.5 px-3 py-1.5 rounded-lg bg-slate-100 border border-slate-200 text-slate-700 font-medium">
           <i data-lucide="calendar" class="w-3.5 h-3.5 text-slate-500"></i>
-          <span>Campaign Cycle: Sept 28 – Oct 29, 2026</span>
-        </div>
-        <div class="flex items-center space-x-1.5 px-3 py-1.5 rounded-lg bg-blue-50 border border-blue-200 text-blue-700 font-bold">
-          <i data-lucide="messages-square" class="w-3.5 h-3.5 text-blue-600"></i>
-          <span>43 Contributions (11 Posts • 32 Comments)</span>
+          <span>Cycle: Sept 28 – Oct 29, 2026</span>
         </div>
       </div>
 
@@ -438,9 +448,17 @@
   </div>
 
   <!-- Footer -->
-  <footer class="bg-white border-t border-slate-200 py-6 px-4 sm:px-8 text-center text-xs text-slate-500 space-y-1">
-    <p class="font-medium">Voygr Reddit Discussion & Community Performance Archive (Cycle: Sept 28 – Oct 29, 2026)</p>
-    <p>All links point directly to public Reddit community threads.</p>
+  <footer class="mt-auto border-t border-slate-200 bg-white py-4 px-4 sm:px-8 text-center text-xs text-slate-500">
+    <div class="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-2">
+      <div>
+        <span class="font-bold text-slate-700">VOYGR</span> • Reddit Discussion & Distribution Hub (Sept 28 – Oct 29, 2026)
+      </div>
+      <div class="flex items-center space-x-4 text-slate-400">
+        <a href="index.html" class="hover:text-blue-600 font-medium text-slate-600 transition-colors">Reddit Discussions</a>
+        <span>•</span>
+        <a href="analytics.html" class="hover:text-indigo-600 transition-colors">Search & AI Visibility</a>
+      </div>
+    </div>
   </footer>
 
   <!-- Application Script -->
